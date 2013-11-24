@@ -23,6 +23,7 @@ class MuttSidebar < Formula
   option "with-ignore-thread-patch", "Apply ignore-thread patch"
   option "with-pgp-verbose-mime-patch", "Apply PGP verbose mime patch"
   option "with-confirm-attachment-patch", "Apply confirm attachment patch"
+  option "with-smartdate-patch", "Apply smartdate patch"
   option "with-echo-patch", "Apply echo patch"
 
   depends_on 'tokyo-cabinet'
@@ -38,6 +39,7 @@ class MuttSidebar < Formula
       ['with-pgp-verbose-mime-patch',
           'http://patch-tracker.debian.org/patch/series/dl/mutt/1.5.21-6.2/features-old/patch-1.5.4.vk.pgp_verbose_mime'],
       ['with-confirm-attachment-patch', 'https://gist.github.com/tlvince/5741641/raw/c926ca307dc97727c2bd88a84dcb0d7ac3bb4bf5/mutt-attach.patch'],
+      ['with-smartdate-patch', 'https://raw.github.com/venkytv/homebrew-personal/master/patches/smartdate-1.5.21.patch'],
       ['with-echo-patch', 'https://raw.github.com/bohoomil/crux-ports/master/mutt/mutt-1.5.21.echo_stat.patch'],
     ]
 
