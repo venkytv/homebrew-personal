@@ -81,7 +81,7 @@ class MuttSidebar < Formula
   end if build.with? "smartdate-patch"
 
   patch do
-    url "https://raw.github.com/bohoomil/crux-ports/master/mutt/mutt-1.5.21.echo_stat.patch"
+    url "https://raw.githubusercontent.com/evaryont/aur-packages/master/mutt-great-dane/patch-1.5.21.as.echo.2"
     sha1 "7afb524166f2c9b2873db7e7e71e68389147b3e4"
   end if build.with? "echo-patch"
 
