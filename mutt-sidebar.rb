@@ -10,15 +10,8 @@ class MuttSidebar < Formula
   homepage "http://www.mutt.org/"
   url "ftp://ftp.mutt.org/pub/mutt/mutt-1.5.23.tar.gz"
   mirror "http://fossies.org/linux/misc/mutt-1.5.23.tar.gz"
-  sha1 "8ac821d8b1e25504a31bf5fda9c08d93a4acc862"
+  sha256 "3af0701e57b9e1880ed3a0dee34498a228939e854a16cdccd24e5e502626fd37"
   revision 2
-
-  bottle do
-    revision 2
-    sha1 "1306f6eb8d79e64ab369831b0023b1e3d639e5ee" => :mavericks
-    sha1 "96f9ac81c213f4dfc6316423538dfd449bd65fbf" => :mountain_lion
-    sha1 "32d9a238d78473af52188dcfa07e33a0da018911" => :lion
-  end
 
   head do
     url "http://dev.mutt.org/hg/mutt#default", :using => :hg
